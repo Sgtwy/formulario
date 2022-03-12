@@ -1,0 +1,99 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+
+        <title>Formulario_qualidade</title>
+
+
+    </head>
+
+
+
+    <div>
+        <H1> Formulário de Reclamação Qualidade</H1>
+        
+        
+        <h4> Olá, Tudo bem? <br>
+            Para formalizar e melhor atender a sua solicitação, por favor, preencha as informações abaixo:</h4> 
+
+            <form >
+
+                <fieldset class="grupo">
+                    <div class="campo">
+
+                             <label for="data"><strong>Data do Ocorrido:</strong></label>
+                             <input type="date" nome="date" id="Date" required> <br> <br>
+                             
+                
+                             <label for="VD Filial"><strong>VD Filial:</strong></label>
+                             <input type="number" nome="number" id="number" required> <br> <br>
+
+                             <label for="E-mail Filial"><strong>E-mail Filial:</strong></label>
+                             <input type="email" nome="E-mail" id="E-mail" required> <br> <br>
+
+                             <label for="Tel. Filial"><strong>Tel. Filial:</strong></label>
+                             <input type="tel" nome="number" id="tel" required> <br> <br>
+                    
+                             <label for="Código do Produto"><strong>Código do Produto:</strong></label>
+                             <input type="number." nome="number" id="number" required> <br> <br>
+
+
+                    </div>
+            
+            
+                
+
+                      <div class="campo">
+
+                        <label for="Tipo de Reclamação"><strong>Tipo de Reclamação</strong></label>
+                        <select id="Tipo de Reclamação" required>
+                            <option selected disabled value=>Selecione</option>
+                            
+                            <option >AVARIA</option>
+                            <option >AVARIA DE TRANSPORTE</option>
+                            <option >FALTA</option>
+                            <option >SOBRA</option>
+                            <option >(NF) NOTA FISCAL</option>
+                            <option >DESVIO DE QUALIDADE</option>
+                            <option >LOTE INCORRETO</option>
+                            <option >VALIDADE</option>
+                            <option >FÁBRICA</option>
+                            <option >OUTRO</option>
+
+                        </select> <br> <br>
+                    
+
+
+                
+
+                  
+                    <label for="Descreva Sua Reclamação"><strong>Descreva Sua Reclamação:</strong></label>
+                    <textarea rows="6" style="width: 26em;" id="Descreva sua Reclamação" nome="Descreva Sua Reclamação"></textarea> <br> <br>
+
+                    <form action="contato.php" method="post" enctype="multipart/form-data"></form>
+                    <label> Fotos: <input type="file" name="imagen"></label>
+
+                </fieldset>
+
+
+                </div>
+
+
+
+
+
+                        <button class="botao" type="submit" onsubmit=>Concluído</button>
+            </form>
+                
+        
+
+
+    <body>
+        
+    </body>
+    </html>
