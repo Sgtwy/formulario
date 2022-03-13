@@ -51,6 +51,15 @@ label, imput {
     justify-content: center;
 }
 
+.botao {
+        font-size: 1.2em;
+        border: 2px solid rgb(43, 153, 226);
+        border-radius: 10px;
+        color: white;
+        background: #380b61;
+         
+       }
+
 
 
 @media only screen and (max-device-width: 400px) {
@@ -73,6 +82,14 @@ body{
     height: auto;
 
 }
+         .botao {
+        font-size: 1.2em;
+        border: 2px solid rgb(43, 153, 226);
+        border-radius: 10px;
+        color: white;
+        background: #380b61;
+         
+       }
 
 
 
@@ -109,6 +126,14 @@ label,input, select, textarea, {
        height: auto;
    }
    
+            .botao {
+        font-size: 1.2em;
+        border: 2px solid rgb(43, 153, 226);
+        border-radius: 10px;
+        color: white;
+        background: #380b61;
+         
+       }
    
    
    
