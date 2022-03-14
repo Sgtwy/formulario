@@ -24,11 +24,11 @@ body{
     padding: 10px;
     border-radius: 34px;
     padding-bottom: 30px;
-    display: auto;
+    display: flex;
     
 }
 
-input, select, textarea, .campo {
+input, select, textarea, .grupo {
 
     font-family: sans-serif;
     font-size: 1em;
@@ -97,11 +97,11 @@ body{
              display: flex;
              text-align: center;
             
-             justify-content: center;
+             
 
 
 
-label,input, select, textarea, .campo {
+label,input, select, textarea, .grupo {
 
     font-family: sans-serif;
     font-size: 1em;
