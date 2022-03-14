@@ -34,7 +34,7 @@ input, select, textarea, .campo {
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
-    display: inline-block;
+    display: flex;
     
 }
 
@@ -81,6 +81,7 @@ body{
     border-radius: 100%;
     /*padding-bottom: 30px;*/
     height: auto;
+    width: 100%;
 
 }
          .botao, {
@@ -93,8 +94,10 @@ body{
        }
          
          .bt{
-             display: inline-block;
+             display: flex;
              text-align: center;
+            
+             justify-content: center;
 
 
 
@@ -104,8 +107,9 @@ label,input, select, textarea, .campo {
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
+    display:flex;
     
-    position: flex;
+  
      }
 
     }
@@ -129,6 +133,7 @@ label,input, select, textarea, .campo {
        border-radius: 100%;
        /*padding-bottom: 30px;*/
        height: auto;
+       width: 100%;
    }
    
             .botao {
