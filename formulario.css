@@ -20,7 +20,7 @@ body{
     margin-right: 20%;
     margin-top: 2%;
     justify-content: center;
-    border:2px solid blue;
+    border:2px double blue;
     padding: 10px;
     border-radius: 34px;
     padding-bottom: 30px;
@@ -75,10 +75,10 @@ body{
     margin-right: 20%;
     margin-top: 2%;
     justify-content: center;
-    border:2px solid blue;
+    border:2px double blue;
     padding: 10px;
-    border-radius: 34px;
-    padding-bottom: 30px;
+    border-radius: 100%;
+    /*padding-bottom: 30px;*/
     height: auto;
 
 }
@@ -121,8 +121,8 @@ label,input, select, textarea, {
        justify-content: center;
        border:2px solid blue;
        padding: 10px;
-       border-radius: 34px;
-       padding-bottom: 30px;
+       border-radius: 100%;
+       /*padding-bottom: 30px;*/
        height: auto;
    }
    
