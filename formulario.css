@@ -75,7 +75,7 @@ body{
     margin-right: 20%;
     margin-top: 2%;
     justify-content: center;
-    border:2px double blue;
+    border:70% double blue;
     padding: 10px;
     border-radius: 100%;
     /*padding-bottom: 30px;*/
@@ -84,7 +84,7 @@ body{
 }
          .botao {
         font-size: 1.2em;
-        border: 2px solid rgb(43, 153, 226);
+        border: 5px solid rgb(43, 153, 226);
         border-radius: 10px;
         color: white;
         background: #380b61;
@@ -119,7 +119,7 @@ label,input, select, textarea, {
        margin-right: 20%;
        margin-top: 2%;
        justify-content: center;
-       border:2px solid blue;
+       border:70% double blue;
        padding: 10px;
        border-radius: 100%;
        /*padding-bottom: 30px;*/
