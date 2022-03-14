@@ -34,7 +34,7 @@ input, select, textarea, .campo {
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
-    display: flex;
+    
     
 }
 
@@ -107,7 +107,7 @@ label,input, select, textarea, .campo {
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
-    display:flex;
+   
     
   
      }
