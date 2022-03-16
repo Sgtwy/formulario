@@ -21,7 +21,7 @@
         <h4> Olá, Tudo bem? <br>
             Para formalizar e melhor atender a sua solicitação, por favor, preencha as informações abaixo:</h4> 
 
-            <form >
+            <form method="post" action="formulario.php" >
 
                 <fieldset class="grupo">
                     <div class="campo">
@@ -73,7 +73,7 @@
 
                   
                     <label for="Descreva Sua Reclamação"><strong>Descreva Sua Reclamação:</strong></label>
-                    <textarea rows="6" style="width: 26em;" id="Descreva sua Reclamação" nome="Descreva Sua Reclamação"></textarea> <br> <br>
+                    <textarea rows="6" style="width: 26em;" id="Descreva sua Reclamação" nome="Descreva Sua Reclamação" required></textarea> <br> <br>
 
                     <form action="contato.php" method="post" enctype="multipart/form-data"></form>
                     <label> Fotos: <input type="file" name="imagen[]" multiple="multiple"></label>
