@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
         <title>Formulario_qualidade</title>
 
@@ -26,8 +27,7 @@
                 <fieldset class="grupo">
                     <div class="campo">
 
-                             <label for="data"><strong>Data do Ocorrido:</strong></label>
-                             <input type="date" nome="date" id="Date" required> <br> <br>
+                             
                              
                 
                              <label for="VD Filial"><strong>VD Filial:</strong></label>
@@ -35,9 +35,16 @@
 
                              <label for="E-mail Filial"><strong>E-mail Filial:</strong></label>
                              <input type="email" nome="E-mail" id="E-mail" required> <br> <br>
+                        
 
                              <label for="Tel. Filial"><strong>Tel. Filial:</strong></label>
                              <input type="tel" nome="number" id="tel" required> <br> <br>
+                        
+                             <label for="data"><strong>Data do Ocorrido:</strong></label>
+                             <input type="date" nome="date" id="Date" required> <br> <br>
+                        
+                             <label for="VD Filial"><strong>N° PICKING/VOLUME:</strong></label>
+                             <input type="number" nome="number" id="number" required> <br> <br>
                     
                              <label for="Código do Produto"><strong>Código do Produto:</strong></label>
                              <input type="number." nome="number" id="number" required> <br> <br>
@@ -50,9 +57,10 @@
 
                       <div class="campo">
 
-                        <label for="Tipo de Reclamação"><strong>Tipo de Reclamação</strong></label>
+                        <label for="Tipo de Reclamação"><strong>Tipo de Reclamação:</strong></label>
                         <select id="Tipo de Reclamação" required>
                             <option selected disabled value=>Selecione</option>
+                            
                             
                             <option >AVARIA</option>
                             <option >AVARIA DE TRANSPORTE</option>
@@ -62,7 +70,6 @@
                             <option >DESVIO DE QUALIDADE</option>
                             <option >LOTE INCORRETO</option>
                             <option >VALIDADE</option>
-                            <option >FÁBRICA</option>
                             <option >OUTRO</option>
 
                         </select> <br> <br>
@@ -73,10 +80,10 @@
 
                   
                     <label for="Descreva Sua Reclamação"><strong>Descreva Sua Reclamação:</strong></label>
-                    <textarea rows="6" style="width: 26em;" id="Descreva sua Reclamação" nome="Descreva Sua Reclamação"></textarea> <br> <br>
+                    <textarea rows="6" style="width: 40%;" id="Descreva sua Reclamação" nome="Descreva Sua Reclamação"></textarea> <br> <br>
 
                     <form action="contato.php" method="post" enctype="multipart/form-data"></form>
-                    <label> Fotos: <input type="file" name="imagen"></label>
+                    <label> Fotos: <input type="file" name="imagen[]"multiple="multiple"></label> <br>
 
                 </fieldset>
 
@@ -85,14 +92,18 @@
 
 
 
+                        
 
-
-                        <button class="botao" type="submit" onsubmit=>Concluído</button>
+                        <button class="botao" type="submit" onsubmit=>Enviar</button>
+                              
+                         
             </form>
                 
         
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     
          </body>
     </html>

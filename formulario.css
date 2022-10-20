@@ -20,20 +20,21 @@ body{
     margin-right: 20%;
     margin-top: 2%;
     justify-content: center;
-    border:2px solid blue;
+    border:5px double blue;
     padding: 10px;
     border-radius: 34px;
     padding-bottom: 30px;
-    display: auto;
+  
     
 }
 
-input, select, textarea, {
+input, select, textarea {
 
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
+    
     
 }
 
@@ -53,7 +54,7 @@ label, imput {
 
 .botao {
         font-size: 1.2em;
-        border: 2px solid rgb(43, 153, 226);
+        border: 3px solid rgb(43, 153, 226);
         border-radius: 10px;
         color: white;
         background: #380b61;
@@ -75,32 +76,34 @@ body{
     margin-right: 20%;
     margin-top: 2%;
     justify-content: center;
-    border:2px solid blue;
+    border:3px double blue;
     padding: 10px;
-    border-radius: 34px;
-    padding-bottom: 30px;
+    border-radius: 100%;
+    /*padding-bottom: 30px;*/
     height: auto;
+ 
 
 }
          .botao {
         font-size: 1.2em;
-        border: 2px solid rgb(43, 153, 226);
+        border: 5px solid rgb(43, 153, 226);
         border-radius: 10px;
         color: white;
         background: #380b61;
          
        }
-
-
-
-label,input, select, textarea, {
+         
+       
+            
+      label,input, select, textarea {
 
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
+   
     
-    position: flex;
+  
      }
 
     }
@@ -119,10 +122,10 @@ label,input, select, textarea, {
        margin-right: 20%;
        margin-top: 2%;
        justify-content: center;
-       border:2px solid blue;
+       border:3px double blue;
        padding: 10px;
-       border-radius: 34px;
-       padding-bottom: 30px;
+       border-radius: 100%;
+       /*padding-bottom: 30px;*/
        height: auto;
    }
    
@@ -137,7 +140,7 @@ label,input, select, textarea, {
    
    
    
-   select, textarea, {
+   select, textarea {
    
        font-family: sans-serif;
        font-size: 1em;
